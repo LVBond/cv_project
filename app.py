@@ -11,7 +11,7 @@ with col1:
     st.page_link('pages/chernyshov_learning.py', label='Обучение', icon='💀')
 
 with col2:
-    st.page_link('pages/bond_model.py', label='Модель Серёжи Ч.', icon='🧠')
+    st.page_link('pages/bond_model.py', label='Модель Любы.', icon='🧠')
     st.page_link('pages/bond_learning.py', label='Обучение', icon='ℹ️')
 
 with col3:
