@@ -7,7 +7,8 @@ import numpy as np
 
 
 # Загружаем модель YOLOv5
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='models/bond/best.pt', force_reload=False)
+# model = torch.hub.load('ultralytics/yolov5', 'custom', path='models/bond/best.pt', force_reload=False)
+model = torch.load('models/bond/best.pt', map_location=torch.device('cpu'))
 
 # Словарь для отображения названий классов
 class_names = {
