@@ -6,6 +6,10 @@ st.divider()
 
 col1, col2, col3 = st.columns(3)
 
+with col1:
+    st.page_link('pages/chernyshov_model.py', label='Модель Серёжи Ч.', icon='🍆')
+    st.page_link('pages/chernyshov_learning.py', label='Обучение', icon='💀')
+
 with col3:
     st.page_link('pages/kdnv_model.py', label='Модель Серёжи К.', icon='👾')
     st.page_link('pages/kdnv_history.py', label='Инфа по модели', icon='👀')
